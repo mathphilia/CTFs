@@ -1,5 +1,5 @@
 # My own language
-category: Crypto
+category: Crypto  
 10.00 points, 72 solves
 
 ## 問題

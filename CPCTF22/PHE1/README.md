@@ -1,5 +1,5 @@
 # PHE1
-category: Crypto
+category: Crypto  
 184.28 points, 43 solves
 
 ## 問題
@@ -8,6 +8,6 @@ category: Crypto
 > `nc phe1.cpctf.space 30007`
 
 ## 解法
-$a,b$をそれぞれ暗号化したもの与えるので$ab$を暗号化したものを求めよ、という問題。暗号化の手順を考えると
-$$\operatorname{encrypt}(ab)\equiv(ab)^e=a^eb^e\equiv\operatorname{encrypt}(a)\operatorname{encrypt}(b)\;(\mathrm{mod}\;N)$$
+a, bをそれぞれ暗号化したもの与えるのでabを暗号化したものを求めよ、という問題。暗号化の手順を考えると  
+encrypt(ab)≡(ab)<sup>e</sup>=a<sup>e</sup>b<sup>e</sup>≡encrypt(a)encrypt(b) (mod N)  
 となるので暗号文の積が答えとなる。

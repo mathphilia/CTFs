@@ -1,9 +1,9 @@
 # Forbidden 1
-category: Web
+category: Web  
 10.00 points, 75 solves
 
 ## 問題
-> フラグはadminしか取得できないから大丈夫なはず...
+> フラグはadminしか取得できないから大丈夫なはず...  
 > [forbidden-1.cpctf.space](https://forbidden-1.cpctf.space/)
 
 ## 解法
@@ -11,4 +11,4 @@ cookieを見るとadminがfalseになっている。これをtrueにした上で
 ```js
 cookieStore.set('admin',true);
 ```
-を実行すればよい。
+を実行する。

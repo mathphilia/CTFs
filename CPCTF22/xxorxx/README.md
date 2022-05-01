@@ -1,5 +1,5 @@
 # xxorxx
-category: Crypto
+category: Crypto  
 190.35 points, 36 solves
 
 ## 問題
@@ -30,8 +30,6 @@ category: Crypto
 > ```
 
 ## 解法
-$_=k$の処理の終了時の$a,b,\text{text}$の値をそれぞれ$a_k,b_k,\text{text}_k$とおく。xorの可換性、結合性、そして$a\text^a=0$から、
-$$\text{text}_0=a_0\text^((b_0\text^\text{message})\text^a_0)\text^b_0\text^a_0=\text{message}\text^(a_0\text^a_0\text^a_0\text^b_0\text^b_0)=\text{message}\text^a_0$$
-$$\text{text}_1=\text{text}_0\text^a_1=(\text{message}\text^a_0)\text^a_1=\text{message}\text^(a_0\text^a_1)$$
-$$\text{text}_{99}=\text{message}\text^(a_0\text^a_1\text^\cdots\text^a_{99})$$
+\_=kの処理の終了時のa, b, textの値をそれぞれa<sub>k</sub>, b<sub>k</sub>, text<sub>k</sub>とおく。xorの可換性、結合性、そしてa^a=0から、  
+![数式1](GitHub/CTFs/images/CPCTF22/xxorxx_1.png)
 よって、最終的に出てくる暗号文は平文と0以上32未満の整数とのxorに過ぎないことが分かる。よって32通りの全探索でflagが求まる。

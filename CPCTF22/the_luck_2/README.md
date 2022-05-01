@@ -1,9 +1,9 @@
 # the luck 2
-category: Misc
+category: Misc  
 344.19 points, 15 solves
 
 ## 問題
-> `nc theluck2.cpctf.space 30001`
+> `nc theluck2.cpctf.space 30001`  
 > the luck 1とthe luck 2は独立した問題です。
 
 ## 解法

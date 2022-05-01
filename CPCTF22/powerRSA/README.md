@@ -1,16 +1,9 @@
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], displayMath: [['$$', '$$']]}
-    });
-</script>
-
 # powerRSA
-category: Crypto
+category: Crypto  
 225.56 points, 31 solves
 
 ## 問題
-> ヤーーッ！パワーーッ！(ﾆｯ
+> ヤーーッ！パワーーッ！(ﾆｯ  
 > 
 > ソースコード
 > ```py
@@ -37,4 +30,4 @@ category: Crypto
 > ```
 
 ## 解法
-$r=p^q\%N$は$p$の倍数である$p^q$から$p$の倍数である$N$の倍数を引いたものなので、$r$も$p$の倍数である。よって、`math.gcd`等を用いて$\gcd(r,n)$を計算すれば$p$が求まる。あとは$pq=N$から$q$を求めてRSA_warmupと同様に復号するだけ。
+r=p<sup>q</sup>%Nはpの倍数であるp<sup>q</sup>からpの倍数であるNの倍数を引いたものなので、rもpの倍数である。よって、`math.gcd`等を用いてgcd(r,n)を計算すればpが求まる。あとはpq=Nからqを求めてRSA\_warmupと同様に復号するだけ。
