@@ -31,5 +31,5 @@ category: Crypto
 
 ## 解法
 \_=kの処理の終了時のa, b, textの値をそれぞれa<sub>k</sub>, b<sub>k</sub>, text<sub>k</sub>とおく。xorの可換性、結合性、そしてa^a=0から、  
-<div align="center">![数式1](https://github.com/mathphilia/CTFs/blob/main/images/CPCTF22/xxorxx_1.png?raw=true)</div>  
+<div align="center"><img src="https://github.com/mathphilia/CTFs/blob/main/images/CPCTF22/xxorxx_1.png?raw=true"></div>  
 よって、最終的に出てくる暗号文は平文と0以上32未満の整数とのxorに過ぎないことが分かる。よって32通りの全探索でflagが求まる。
