@@ -8,7 +8,9 @@ category: Web
 
 ## 解法
 cookieを見るとadminがfalseになっている。これをtrueにした上で旗の画像をクリックすればよい。cookieを変えるには開発者ツールのコンソールで
+
 ```js
 cookieStore.set('admin',true);
 ```
+
 を実行する。

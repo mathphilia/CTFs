@@ -6,10 +6,13 @@ category: Crypto
 > たくさん書き換えれば誰にもわからないよね！
 > 
 > 暗号
+>
 > ```
 > VEVASnm%gJ$ Jv%xx`"!"$c&h
 > ```
+>
 > ソースコード
+>
 > ```py
 > import random
 > from secret import FLAG
