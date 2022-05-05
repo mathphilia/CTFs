@@ -1,6 +1,6 @@
 # whatsmyname
 category: Pwn
-50 points, 71 solves
+50 points, 296 solves
 
 ## 問題
 > Can you guess my name?

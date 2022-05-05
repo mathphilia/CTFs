@@ -1,6 +1,6 @@
 # Randomly Sampled Algorithm
 category: Crypto
-70 points, 112 solves
+70 points, 558 solves
 
 ## 問題
 > [RSA](output.txt) strikes strikes strikes again again again! [Source](rsa.py)

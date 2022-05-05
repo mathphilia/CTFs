@@ -1,6 +1,6 @@
 # Confetti
 category: Misc
-40 points, 56 solves
+40 points, 375 solves
 
 ## 問題
 > "From the sky, drop like confetti All eyes on me, so V.I.P All of my dreams, from the sky, drop like confetti" - Little Mix [confetti.png](confetti.png)

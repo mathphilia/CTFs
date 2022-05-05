@@ -1,6 +1,6 @@
 # amongus
 category: Misc
-40 points, 158 solves
+40 points, 632 solves
 
 ## 問題
 > One of [these](amongus.tar.gz) is not like the others.
