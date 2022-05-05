@@ -1,5 +1,5 @@
 # Randomly Sampled Algorithm
-category: Crypto
+category: Crypto  
 70 points, 558 solves
 
 ## 問題

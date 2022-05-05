@@ -1,5 +1,5 @@
 # Confetti
-category: Misc
+category: Misc  
 40 points, 375 solves
 
 ## 問題

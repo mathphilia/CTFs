@@ -1,5 +1,5 @@
 # amongus
-category: Misc
+category: Misc  
 40 points, 632 solves
 
 ## 問題

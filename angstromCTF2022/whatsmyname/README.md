@@ -1,5 +1,5 @@
 # whatsmyname
-category: Pwn
+category: Pwn  
 50 points, 296 solves
 
 ## 問題

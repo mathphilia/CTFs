@@ -1,5 +1,5 @@
 # Vinegar Factory
-category: Crypto
+category: Crypto  
 100 points, 238 solves
 
 ## 問題
