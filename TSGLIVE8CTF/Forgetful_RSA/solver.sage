@@ -5,7 +5,7 @@ with open('output.txt') as f:
     print(c)
 
 N = gcd(21 ^ 0x101 - c[-6], 42 ^ 0x101 - c[-7])
-#PR.<x> = PolynomialRing(Zmod(N))
+PR.<x> = PolynomialRing(Zmod(N))
 
 poly1 = (2 * x + 1) ^ 0x101 - c[0]
 poly2 = x ^ 0x101 - c[1]
