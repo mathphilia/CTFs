@@ -11,7 +11,7 @@ Pack out your quantum computer and perform 2^1025-3 encryptions to solve this ch
 
 ## 解法
 **注意: この解法は相当時間がかかるため、正規の方法でない恐れがあります。**  
-また、Markdownが異常に読みにくくなっているので原文を読んでください。  
+また、Markdownが異常に読みにくくなっているので[原文](https://raw.githubusercontent.com/mathphilia/CTFs/main/Google_Capture_The_Flag_2022/CYCLING/README.md)を読んでください。  
 It is well knownとか言われても知らないので証明してみる。問題文で述べられている定理を整理すると以下のようになる。  
 
 > **定理1.**(不完全版) 一部の例外(後述)を除く任意の$2$以上の自然数$n,e$に対し、以下が成り立つ。暗号化函数$\operatorname{encrypt}:\mathbb Z_n^*\to\mathbb Z_n^*$を
@@ -45,7 +45,7 @@ It is well knownとか言われても知らないので証明してみる。問�
 > $$\operatorname{encrypt}^a=\underbrace{\operatorname{encrypt}\circ\operatorname{encrypt}\circ\dots\circ\operatorname{encrypt}}_{a\text{ times composition}}$$
 > で定めるとき、ある非負整数kが存在して
 > $$m^{e^{k+1}-1}\mod n=1$$
-> が成り立つ。
+> が成り立つ。  
 > **証明)** **定理3.**より$e^{k+1}-1=R_{e,k+1}$が$\lambda(n)$の倍数となるような非負整数$k$が存在する。この$k$に対して$\lambda(n)r=e^{k+1}-1$として正整数$r$を定める。このとき**定理2.**から
 > $$m^{e^{k+1}-1}\mod n=(m^{\lambda(n)})^r\mod n=1$$
 > が分かる。以上で示された。
