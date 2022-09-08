@@ -1,5 +1,5 @@
 # frozen cake
-category: Crypto
+category: Crypto  
 88 points, 132 solves
 
 ## 問題

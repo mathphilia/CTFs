@@ -1,5 +1,5 @@
 # brand new crypto
-category: Crypto
+category: Crypto  
 140 points, 46 solves
 
 ## 問題
