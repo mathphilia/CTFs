@@ -1,4 +1,4 @@
-[CPCTF22](https://cpctf.space)の問題ファイルおよびwriteup置き場です。  
+[WaniCTF 2023](https://score.wanictf.org/)の問題ファイルおよびwriteup置き場です。  
 
 一覧
 - Crypto
