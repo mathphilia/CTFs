@@ -12,7 +12,7 @@ LFSRもどきの問題。`LFSR`オブジェクトが`ord("🐈")*ord("🐈")*ord
 
 $$r_1=Ar_0,\ r_2=Br_1=BAr_0,\ r_3=ABAr_0,\ r_4=BABAr_0,\ \dots$$
 
-$$r_k=\begin{cases}(BA)^{k/\\!/2}&(k:\text{even})\\\\A(BA)^{k/\\!/2}&(k:\text{odd})\end{cases}$$
+$$r_k=\begin{cases}(BA)^{k/\\!/2}r_0&(k:\text{even})\\\\A(BA)^{k/\\!/2}r_0&(k:\text{odd})\end{cases}$$
 
 ただし計算はすべて $\bmod2$ の下で行われるものとし、
 
