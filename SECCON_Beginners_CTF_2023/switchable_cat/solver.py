@@ -1,4 +1,4 @@
-from numpy import matrix
+import numpy
 
 
 class LFSR:
@@ -46,13 +46,13 @@ def power_mod2(mat, n):
 
 def proceed(register, steps):
     rr = register.rr
-    state = matrix([[int(bit)] for bit in f'{rr:0128b}'])
+    state = numpy.matrix([[int(bit)] for bit in f'{rr:0128b}'])
     A = [[0] * 118 + [1, 0, 0, 1, 0, 1, 0, 1, 0, 1]]
     A += [[i == j for j in range(128)] for i in range(127)]
-    A = matrix(A)
+    A = numpy.matrix(A)
     B = [[0] * 118 + [0, 1, 1, 0, 1, 0, 0, 0, 1, 0]]
     B += [[i == j for j in range(128)] for i in range(127)]
-    B = matrix(B)
+    B = numpy.matrix(B)
     state = power_mod2(B * A, steps // 2) * state
     if steps & 1:
         state = A * state
