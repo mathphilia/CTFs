@@ -15,4 +15,4 @@ category: Crypto
 output: 00111001011011001010
 ```
 
-となる。`length`はflagのビット数なので直接求めることはできないが、`cipher`のビット数以上で`cipher`のビット数に近いと考えられるので、`length = cipher.bit_length()`を始点として1ずつ増やしていき、計算結果が`b'ctf4b{'`から始まるまで待てばよい。
+となる。`length`はflagのビット数なので直接求めることはできないが、`cipher`のビット数以上で`cipher`のビット数に近いと考えられるので、`length = cipher.bit_length()`を始点として1ずつ増やしていって計算結果が`b'ctf4b{'`から始まるまで待てばよい。
