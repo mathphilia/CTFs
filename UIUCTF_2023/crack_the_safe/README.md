@@ -6,7 +6,7 @@ category: Crypto
 > "I found this safe, but something about it seems a bit off - can you crack it?"
 
 ## 解法
-AES-ECBの暗号化鍵`key`に対し、 $7^\texttt{key}\bmod p$ が与えられている。この値を $y$ とおく。 $p$ は $192$ bitなので`key`は $192$ bit以下であろうと考えられる。AESの暗号化鍵のサイズは $128$ nit, $192$ bit, $256$ bitの $3$ 種類があるが、[Group Project](https://github.com/mathphilia/CTFs/tree/main/UIUCTF_2023/Group_Project)の鍵長が $128$ bitであったことから今回もそうなのではという希望的観測の下で解いていく。 $p-1$ を素因数分解すると
+AES-ECBの暗号化鍵`key`に対し、 $7^\texttt{key}\bmod p$ が与えられている。この値を $y$ とおく。 $p$ は $192$ bitなので`key`は $192$ bit以下であろうと考えられる。AESの暗号化鍵のサイズは $128$ bit, $192$ bit, $256$ bitの $3$ 種類があるが、[Group Project](https://github.com/mathphilia/CTFs/tree/main/UIUCTF_2023/Group_Project)の鍵長が $128$ bitであったことから今回もそうなのではという希望的観測の下で解いていく。 $p-1$ を素因数分解すると
 
 $$p-1=2\times19\times151\times577\times67061\times18279232319\times111543376699\times9213409941746658353293481$$
 

@@ -1,4 +1,4 @@
-#from Crypto.Cipher import AES
+from Crypto.Cipher import AES
 
 
 p = 4170887899225220949299992515778389605737976266979828742347
@@ -14,6 +14,4 @@ for key in range(444780066250058017668829040430952, 1 << 128, (p - 1) // q):
     power = power * tmp % p
 
 key = key.to_bytes((key.bit_length() + 7) // 8, 'big')
-print(f'{key=}')
-print(f'{ct=}')
-print(AES.new(key,AES.MODE_ECB).decrypt(ct))
+print(AES.new(key, AES.MODE_ECB).decrypt(ct))
