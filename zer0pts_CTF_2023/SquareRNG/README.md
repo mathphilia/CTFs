@@ -1,5 +1,5 @@
 # SquareRNG
-category: Crypto
+category: Crypto  
 130 points, 54 solves
 
 ## 問題
