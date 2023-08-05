@@ -13,7 +13,7 @@ $$\texttt{cipher}_k=\texttt{iv}+\texttt{plain}_0+\texttt{plain}_1+\dots+\texttt{
 である。ただし、 $+$ は`add_key`函数で行われる演算であり、 $k\cdot\texttt{key}=\texttt{key}+\texttt{key}+\dots+\texttt{key}$ ( $\texttt{key}$ が $k$ 個)である。よって次の式が得られる。  
 
 $$\begin{align*}
-\texttt{cipher}_0-\texttt{iv}&=\texttt{plain}_0+\texttt{key}\\
+\texttt{cipher}_0-\texttt{iv}&=\texttt{plain}_0+\texttt{key}\\\\
 \texttt{cipher}_k-\texttt{cipher}_{k-1}&=\texttt{plain}_k+\texttt{key}\quad(1\leqq k)
 \end{align*}$$  
 
