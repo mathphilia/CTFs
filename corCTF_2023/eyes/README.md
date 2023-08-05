@@ -8,7 +8,7 @@ category: Crypto
 ## 解法
 `fn`は列ヴェクトル $x$ を引数にとり、下三角行列 $A$ と列ヴェクトル $B$ を用いて ${}^txAx+{}^tBx+\texttt{flag}\bmod p$ を計算して返す函数である( $A,B$ は固定)。 $A,B$ は $1024$ 次元であるが、このコードにおいて $x$ の第 $4$ 成分以降はすべて $0$ であるため実際に計算に使われるのはごく一部である。  
 
-$$A=\begin{pmatrix}a_{11}&0&0&\dots\\a_{21}&a_{22}&0&\dots\\a_{31}&a_{32}&a_{33}&\dots\\\vdots&\vdots&\vdots&\ddots\end{pmatrix},B=\begin{pmatrix}b_1\\b_2\\b_3\\\vdots\end{pmatrix}$$  
+$$A=\begin{pmatrix}a_{11}&0&0&\dots\\\\a_{21}&a_{22}&0&\dots\\\\a_{31}&a_{32}&a_{33}&\dots\\\\\\vdots&\vdots&\vdots&\ddots\end{pmatrix},B=\begin{pmatrix}b_1\\\\b_2\\\\b_3\\\\\\vdots\end{pmatrix}$$  
 
 とおき、`fn(conv(i + 1))`の出力を $L_i$ とする。このとき  
 
