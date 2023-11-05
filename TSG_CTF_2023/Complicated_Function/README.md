@@ -14,4 +14,4 @@ category: Crypto
 
 $$q=\left\lfloor\sqrt{p^2+(2^{512}-6)+\big\lceil\lfloor\sqrt p\rfloor\sin p\rceil}\right\rfloor+2^{1023}$$  
 
-により $q$ を定めている(概算する上では $\lfloor\phantom m\rfloor$ や $\lceil\phantom m\rceil$ は無視してよい)。 $p$ は1024bitなので $\sqrt p\sin p<(2^{511}-3)^2$ が分かり、したがって $q$ は $p+(2^{511}-3)+2^{1023}$ より少し小さい。誤差は全探索可能な範囲に収まっているので、2次方程式 $p^2+(q-p)p-N=0$ を解けば $p$ が求まり素因数分解に成功する。
+により $q$ を定めている(概算する上では $\lfloor\quad\rfloor$ や $\lceil\quad\rceil$ は無視してよい)。 $p$ は1024bitなので $\sqrt p\sin p<(2^{511}-3)^2$ が分かり、したがって $q$ は $p+(2^{511}-3)+2^{1023}$ より少し小さい。誤差は全探索可能な範囲に収まっているので、2次方程式 $p^2+(q-p)p-N=0$ を解けば $p$ が求まり素因数分解に成功する。
